@@ -83,21 +83,10 @@ Push your commits to your GitHub fork.
 3. **Open a Pull Request:**
 On GitHub, navigate to your fork, click **New pull request**, and ensure that the base repository is the original template repository. Provide a detailed description of your changes so that reviewers have context.
 
-## Forking vs. Repository Templates
-
-### Forking:
+## Forking
 
 - **Retains Full History and Connection:**
 Your fork includes the entire commit history and maintains an explicit link (via the upstream remote) with the original template.
 - **Facilitates Updates and Collaboration:**
-You can easily fetch updates from the main template and contribute enhancements back via pull requests.
-
-
-### Repository Templates:
-
-- **Creates an Independent Copy:**
-When you create a new repository from a template, you get the standardized directory structure, but without history, making it difficult to merge updates later.
-- **Suitable for One-Time Setup:**
-This approach is useful for quickly starting projects when ongoing contributions or updates to the template are not required.
-
+You can easily fetch updates from the main template and contribute enhancements back via pull requests. This is different from a copy as updated files in the template repo are not shown in a copied repo. This is the case for a forked repo as well as giving users the ability to commit changes to files and create pull requests to update the original repo. These updates can subsequently be used by other users. 
 For ongoing collaboration and shared improvements, **forking** is the recommended workflow.
