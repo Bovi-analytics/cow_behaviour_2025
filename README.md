@@ -12,7 +12,7 @@ Teams are encouraged to use this template as a starting point for their projects
 
 ## Directory Structure
 
-![Dir tree](misc/readme_data/dir_tree.png?raw=true "Dir tree")
+![Dir tree](src/misc/readme_data/dir_tree.png?raw=true "Dir tree")
 
 ## Usage Instructions
 
